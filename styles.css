@@ -16,3 +16,43 @@
 
     --font-family: 'Inter', sans-serif;
 }
+
+body{
+    padding: 100px;
+    width: 1440px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+}
+
+.left-side{
+    margin-right: 30px;
+    width: 75%;
+}
+
+.right-side{
+    width: 25%;
+}
+
+.main-img{
+    width: 100%;
+}
